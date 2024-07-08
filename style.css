@@ -11,7 +11,7 @@ body {
 
 footer{
     min-height: 150px;
-    background-color: darkslategray;
+    background-color: rgb(36, 33, 33);
 
 }
 
@@ -108,6 +108,10 @@ footer{
     
 
 }
+.section-flex-container-G-special i {
+    height: 20px;
+    width: 530px;
+}
 
 
 
@@ -129,7 +133,7 @@ footer{
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color:lightgray;
+    background-color:rgb(237, 237, 237);
     padding: 10px;
 }
 
@@ -139,23 +143,22 @@ footer{
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color:lightgray;
+    background-color:rgb(237, 237, 237);
 }
 .section-flex-container-B {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center ;
     align-items: center;
     min-height: 400px;
 }
 
-.section-flex-container-B-special {
-    max-width:100%;
+.section-flex-container-B-bottom {
+    
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: darkslategrey;
     margin-top: 15px;
 }
 
@@ -182,7 +185,7 @@ footer{
     }
 .section-flex-container-G-special  h2 {
    text-align: center;
-    font-size: 30px;
+    font-size: 45px;
 }
 .section-flex-container-G-special  h3 {
     text-align: center;
@@ -191,7 +194,7 @@ footer{
 
 .section-flex-container-G-special h6 {
     text-align: center;
-     font-size: 12px;
+     font-size: 15px;
  }
 
  .section-flex-container-G-special .btn-mac {
@@ -211,19 +214,50 @@ footer{
     .column-big {
         min-height: 300px;
         min-width: 27%;
-        background-color: darkslateblue;
-        border: 2px dashed black;}
+        border: 2px dashed white;}
 
+        .column-big h3 {
+            color: rgb(78, 134, 229);
+            font-size: 25px;
+            margin:0;
+            padding-bottom: 15px;
+        }
+        .column-big img {
+            height: 15px;
+            
+        }
+        .column-big span {
+            height: 20px;
+            color: white;
+            font-size: 12px;
+            text-align: center;
+            line-height: 15px;
+            vertical-align: middle;
+        }
+
+        .fa-twitter,.fa-facebook,.fa-instagram,.fa-youtube {
+            color: white;
+          padding-top: 8px;
+          padding-right: 5px;
+            
+        }
+      
         .column-small {
             min-height: 300px;
             min-width: 13%;
-            background-color: lightseagreen;
-            border: 2px dashed white;}
+            border: 2px dashed white;
+            font-size: 13px;
+            color: white;
+        }
+
+            .column-small > :first-child{
+                color: rgb(78, 134, 229)
+            }
+
 
         .logo-footer{
             min-width: 20%;
             min-height: 30px;
-            background-color: lightcoral;
             color: black;
             text-align: center;
             border: 2px dashed black;
@@ -232,7 +266,6 @@ footer{
     .button {
         min-width: 20%;
         min-height: 30px;
-        background-color: lightcoral;
         color: black;
         text-align: center;
         border: 2px dashed black;
@@ -243,9 +276,27 @@ footer{
         justify-content: space-between;
         align-items: center;
         min-height: 55px;
-        background-color: powderblue;
-        min-width: 80%;
+        min-width: 80%;  
+        border: 2px dashed;
+    }
+    .logofooter img {
+        height: 30px;
+        margin: 0;
+    }
+    .btn-footer {
+        background-color: rgb(78, 134, 229);
+        color: white;
+        width: 80px;
+        height: 30px;
+        border: none;
+        border-radius: 20%;
+    }
+    
+    hr {
+        border-bottom: 1px solid blue;
         
     }
+
+
     
 
