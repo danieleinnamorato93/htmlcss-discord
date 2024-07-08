@@ -1,0 +1,178 @@
+header {
+    min-height: 150px;
+    background-color: lightblue;
+    
+}
+
+footer{
+    min-height: 150px;
+    background-color: darkslategray;
+
+}
+
+.flex-nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content:center ;
+    align-items:center;
+    min-height: 50px;
+    background-color: powderblue;
+    min-width: 100%;
+
+}
+.logo{
+
+    min-width: 19%;
+    min-height: 30px;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    border: 2px dashed black;
+
+}
+
+.link {
+    min-width: 60%;
+    min-height: 30px;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    border: 2px dashed black;
+
+
+}
+
+.login {
+    min-width: 19%;
+    min-height: 30px;
+    background-color: lightcoral;
+    color: black;
+    text-align: center;
+    border: 2px dashed black;
+    
+}
+
+.header-section-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color:lightgreen;
+    
+   
+}
+
+.square-header-section {
+    min-height: 200px;
+    min-width: 500px;
+    background-color:darkred;;
+    border: 2px dashed black;
+}
+
+.section-flex-container-W {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background-color:white;
+}
+.section-flex-container-G {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    min-height: 300px;
+    background-color:lightgray;
+}
+.section-flex-container-G-special {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+    min-height: 600px;
+    background-color:lightgray;
+}
+.section-flex-container-B {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.section-flex-container-B-special {
+    max-width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey;
+    margin-top: 15px;
+}
+
+.square-a{
+    min-height: 250px;
+    min-width: 60%;
+    background-color:lightcoral;
+    border: 2px dashed black;
+}
+
+.square-b{
+    min-height: 250px;
+    min-width: 20%;
+    background-color: darkcyan;
+    border: 2px dashed black;
+}
+
+.square-c{
+    min-height: 500px;
+    min-width: 80%;
+    background-color: darkmagenta;
+    border: 2px dashed black;
+    }
+
+    .column-big {
+        min-height: 300px;
+        min-width: 27%;
+        background-color: darkslateblue;
+        border: 2px dashed black;}
+
+        .column-small {
+            min-height: 300px;
+            min-width: 13%;
+            background-color: lightseagreen;
+            border: 2px dashed white;}
+
+        .logo-footer{
+            min-width: 20%;
+            min-height: 30px;
+            background-color: lightcoral;
+            color: black;
+            text-align: center;
+            border: 2px dashed black;
+            
+        }
+    .button {
+        min-width: 20%;
+        min-height: 30px;
+        background-color: lightcoral;
+        color: black;
+        text-align: center;
+        border: 2px dashed black;
+    }
+    .footer-flex-container-down {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 55px;
+        background-color: powderblue;
+        min-width: 80%;
+        
+    }
+    
+
