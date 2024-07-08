@@ -1,7 +1,12 @@
 header {
-    min-height: 150px;
-    background-color: lightblue;
-    
+    min-height: 350px;
+    background-image: url("img/jumbo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+body {
+    font-family: font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 footer{
@@ -16,7 +21,6 @@ footer{
     justify-content:center ;
     align-items:center;
     min-height: 50px;
-    background-color: powderblue;
     min-width: 100%;
 
 }
@@ -24,33 +28,46 @@ footer{
 
     min-width: 19%;
     min-height: 30px;
-    background-color: lightcoral;
     color: black;
     text-align: center;
-    border: 2px dashed black;
 
+}
+
+.logo > .logoimg {
+    
+    height:25px;
+    text-align: center;
 }
 
 .link {
     min-width: 60%;
-    min-height: 30px;
-    background-color: lightcoral;
+    min-height: 30px;;
     color: black;
     text-align: center;
-    border: 2px dashed black;
-
-
 }
+.link a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+
+
 
 .login {
     min-width: 19%;
     min-height: 30px;
-    background-color: lightcoral;
     color: black;
     text-align: center;
-    border: 2px dashed black;
-    
 }
+
+.login .btn-login {
+    border-radius: 45%;
+    height: 25px;
+    width: 65px;
+}
+
 
 .header-section-flex-container {
     display: flex;
