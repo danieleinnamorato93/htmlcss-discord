@@ -63,9 +63,11 @@ footer{
 }
 
 .login .btn-login {
-    border-radius: 45%;
-    height: 25px;
-    width: 65px;
+    border-radius: 40%;
+    height: 20px;
+    width: 60px;
+    border: none;
+    font-size: 10px;
 }
 
 
@@ -75,17 +77,44 @@ footer{
     justify-content: center;
     align-items: center;
     min-height: 300px;
-    background-color:lightgreen;
     
    
 }
 
 .square-header-section {
-    min-height: 200px;
-    min-width: 500px;
-    background-color:darkred;;
-    border: 2px dashed black;
+    min-height: 187px;
+    flex-basis: 50%;
+    color: white;
+    text-align: center;
+    padding: 11px;
 }
+
+.square-header-section button {
+    width: 104px;
+    height: 30px;
+    border-radius: 40%;
+    text-align: center;
+    border: none;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 8px;
+}
+
+.square-header-section .btn-mac {
+    background-color: white;
+    color: black;
+}
+
+.square-header-section .btn-brwser {
+    background-color:black;
+    color: white;
+    
+
+}
+
+
+
+
 
 .section-flex-container-W {
     display: flex;
